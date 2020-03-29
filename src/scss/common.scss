@@ -1,0 +1,75 @@
+$font-roboto: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-times: 'Times New Roman', Times, serif;
+$font-verdana: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$color-accent: #AFA6A7;
+$color-text: #000;
+$color-text-inversion: #fff;
+$color-text-light: #fff;
+
+
+body {
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	color: #000000;
+	font-family: $font-times;
+	font-size: 66px;
+	font-weight: 400;
+	line-height: 76px;
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	color: #000000;
+	font-family: $font-verdana;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 44px;
+}
+
+.color-light {
+	color: #FFFFFF;
+}
+
+.text-center {
+	text-align: center;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	color: #AfA6A7;
+	display: block;
+	font-size: 14px;
+	max-width: 100%;
+}
+
+a {
+	transition: all .2s ease;
+}
+
+.link {
+	color: #AFA6A7;
+	font-family: $font-verdana;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.66px;
+	line-height: 15px;
+	text-decoration: none;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.e-container {
+	max-width: 804px;
+	width: 100%;
+}

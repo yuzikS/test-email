@@ -1,0 +1,302 @@
+@import './common';
+
+.e-wrapper {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.e-info {
+	background-color: $color-accent;
+	font-family: $font-roboto;;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 9px 0 7px;
+	text-align: center;
+	
+	a {
+		color: $color-text-inversion;
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.e-header {
+	
+	&__content {
+		padding: 0 83px 0 55px;
+	}
+	
+	&__logo {
+		height: 47px;
+		width: 104px;
+		
+		// TODO
+		&-link {
+			cursor: pointer;
+		}
+	}
+	
+	&__social {
+		
+		&-td {
+			padding: 0 5px;
+		}
+		
+	}
+	
+	&__social-link {
+		display: block;
+		height: 24px;
+		width: 24px;
+		
+		img {
+			font-size: 7px;
+			height: 24px;
+			text-align: right;
+			width: 24px;
+		}
+		
+	}
+	
+}
+
+.e-header__space-btm {
+	padding-bottom: 23px;
+}
+
+
+.main-section {
+	background-image: url('./assets/images/bg1@2x.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	//&__wrap {
+	//  background-color: #AFA6A7;
+	//}
+	
+	&__definition {
+		color: #FFFFFF;
+		font-family: $font-verdana;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 22px;
+		text-align: center;
+	}
+	
+	&__btn {
+		color: #FFFFFF;
+		display: block;
+		font-family: $font-verdana;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 15px;
+		padding: 18px 18px;
+		text-decoration: none;
+		letter-spacing: 0.66px;
+		
+		&-container {
+			border: 2px solid #FFFFFF;
+			text-align: center;
+			display: block;
+			
+			&:hover {
+				background-color: #FFFFFF;
+				
+				.main-section__btn {
+					color: #000000;
+				}
+			}
+		}
+	}
+}
+
+
+.e-product {
+	
+	&__name {
+		color: #000000;
+		font-family: $font-times;
+		font-size: 33px;
+		font-weight: 400;
+		line-height: 37px;
+	}
+	
+	&__price {
+		color: #AFA6A7;
+		font-family: $font-verdana;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 44px;
+	}
+	
+	&__btn {
+		color: #000000;
+		font-family: $font-verdana;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0.66px;
+		line-height: 52px;
+		padding: 18px;
+		text-align: center;
+		text-decoration: none;
+		
+		&-container {
+			border: 2px solid #000000;
+			border-radius: 26px;
+			display: block;
+			
+			&:hover {
+				background-color: #000000;
+				
+				.e-product__btn {
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+	
+}
+
+
+.e-barrel-section {
+	background-image: url('./assets/images/bg2@2x.png');
+	background-repeat: no-repeat;
+	
+	&__content {
+		padding: 0 25px;
+	}
+	
+	&__title {
+		max-width: 406px;
+		width: 100%;
+	}
+	
+	&__desc {
+		max-width: 329px;
+		width: 100%;
+	}
+	
+	.title {
+		word-spacing: 9999px;
+	}
+}
+
+.e-we-do-section {
+	
+	&__info {
+		padding: 56px 68px;
+		
+		&-desc {
+			color: #000000;
+			font-family: $font-verdana;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 44px;
+		}
+	}
+}
+
+
+.e-more-beer {
+	background-image: url('./assets/images/Image 2@2x.png');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+	&__content {
+		padding: 0 9px;
+	}
+}
+
+.e-footer {
+  
+  &__content {
+    padding: 0 20px;
+  }
+  
+  &__follow {
+    border-right: 1px solid #000000;
+    
+    &-title {
+      color: #000506;
+      font-family: $font-times;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 26px;
+      text-shadow: 0 3px 6px #FFE30F27;
+    }
+    
+    &-desc {
+      color: #000000;
+      font-family: $font-roboto;
+      font-size: 14px;
+      line-height: 17px;
+      width: 218px;
+    }
+  }
+  
+  &__contacts {
+	  text-align: right;
+	
+	  &-tel,
+	  &-email,
+	  &-web{
+		  font-family: $font-roboto;
+		  color: #000000;
+		  font-weight: 400;
+		  font-size: 12px;
+		  line-height: 14px;
+	  }
+	  
+	  &-tel {
+		  font-weight: 700;
+		  font-size: 14px;
+		  line-height: 17px;
+	  }
+	  
+	  a {
+		  text-decoration: none;
+		  
+		  &:hover {
+			  text-decoration: underline;
+		  }
+	  }
+  }
+  
+  &__social-td {
+    padding: 0 10px;
+  }
+  
+  &__social-link {
+    display: block;
+  }
+}
+
+
+.e_unsubscribe {
+	color: #FFFFFF;
+	font-family: $font-roboto;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 9px 0 7px;
+	text-align: center;
+	
+	a {
+		color: #FFFFFF;
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+
+
+

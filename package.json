@@ -1,0 +1,29 @@
+{
+  "name": "runner",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuliya",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^1.2.2",
+    "gulp-inline-css": "^3.5.0"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-concat": "2.6.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-email-builder": "^3.0.0",
+    "gulp-file-include": "^2.1.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "4.3.9",
+    "gulp-webserver": "0.9.1",
+    "node-sass": "^4.13.1"
+  },
+  "description": ""
+}
